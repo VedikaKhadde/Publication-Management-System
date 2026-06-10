@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publication System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- header -->
+    <header class="bg-white shadow p-3 ">
+        <div class="flex flex-col md:flex-row justify-center items-center text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 24 24" fill="none"
+                stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-book-open-icon lucide-book-open">
+                <path d="M12 7v14" />
+                <path
+                    d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+            </svg>
+            <h1 class="text-3xl md:text-2xl font-bold md:ml-2 mt-2 md:mt-0"> Publication Management System</h1>
+
+        </div>
+        <p class="text-gray-500 text-lg md:text-sm flex justify-center items-center -mt-1">Student & Faculty Research
+            Portal</p>
+    </header>
+
+    <!-- main section -->
+    <section class="flex flex-col item-center justify-center text-center p-4 m-3 ">
+        <h2 class="text-2xl md:text-4xl font-bold ">
+            Welcome to Publication Portal
+        </h2>
+        <p class="text-lg md:text-md text-gray-500 mt-3">
+            Select an option to manage publications or download reports
+        </p>
+    </section>
+
+    <!-- 3 cards -->
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-6 p-6 justify-center items-center m-10 ">
+
+        <!-- student-card -->
+        <div class="group w-72 rounded-2xl shadow border-2 border-gray bg-white p-6 text-center transition-all duration-300 ease-out 
+        hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:border-blue-600 cursor-pointer">
+
+            <div
+                class="w-20 h-20 flex items-center justify-center mx-auto rounded-full bg-blue-100 group-hover:bg-blue-500 transition">
+                <i data-lucide="graduation-cap" class="w-10 h-10 text-blue-600 group-hover:text-white"></i>
+            </div>
+
+            <h3 class="text-2xl font-semibold mt-4">Student</h3>
+            <p class="text-md text-gray-500 mt-2">Add and manage student publication</p>
+            <a href="Student.html">
+                <button class="mt-6 mb-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                    Go to Student Form
+                </button>
+            </a>
+
+
+        </div>
+
+        <!-- faculty-card -->
+        <div class="group w-72 rounded-2xl shadow border-2 border-gray bg-white p-6 text-center transition-all duration-300 ease-out 
+        hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:border-purple-600 cursor-pointer">
+
+            <div
+                class="w-20 h-20 flex items-center justify-center mx-auto rounded-full bg-purple-100 group-hover:bg-purple-500 transition">
+                <i data-lucide="users" class="w-10 h-10 text-purple-600 group-hover:text-white"></i>
+            </div>
+
+            <h3 class="text-2xl font-semibold mt-4">Faculty</h3>
+            <p class="text-md text-gray-500 mt-2">Add and manage faculty publication</p>
+
+            <a href="Faculty.html">
+                <button class="mt-6 mb-4 bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700">
+                    Go to Faculty Form
+                </button>
+            </a>
+
+        </div>
+
+        <!-- download-card -->
+        <div class="group w-72 rounded-2xl shadow border-2 border-gray bg-white p-6 text-center transition-all duration-300 ease-out 
+        hover:-translate-y-2 hover:scale-105 hover:shadow-xl hover:border-green-600 cursor-pointer">
+            <div
+                class="w-20 h-20 flex items-center justify-center mx-auto rounded-full bg-green-100 group-hover:bg-green-500 transition">
+                <i data-lucide="download" class="w-10 h-10 text-blue-600 group-hover:text-white"></i>
+            </div>
+
+            <h3 class="text-2xl font-semibold mt-4">Download</h3>
+            <p class="text-md text-gray-500 mt-2">Download publication report as pdf</p>
+
+            <a href="download.html">
+                <button class="mt-6 mb-4 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
+                    Go to Download Page
+                </button>
+            </a>
+
+        </div>
+    </div>
+
+    <footer class="mt-16 bg-gray-100 text-center py-4">
+        <p class="text-gray-600 text-sm">
+            © 2026 Student Publication System. All rights reserved.
+        </p>
+    </footer>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
