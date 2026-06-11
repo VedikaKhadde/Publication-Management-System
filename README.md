@@ -105,6 +105,25 @@ To provide a centralized platform for storing, managing, and generating reports 
 
 ---
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Student Management
+![Student Management](screenshots/student.png)
+
+### Faculty Management
+![Faculty Management](screenshots/faculty.png)
+
+### Download 
+![Faculty Management](screenshots/download.png)
+
+### Generated PDF Report
+![PDF Report](screenshots/pdf-report.png)
+
+---
+
 ## Conclusion
 
 This project demonstrates the implementation of Java Web Technologies, JDBC Connectivity, Relational Database Management, and PDF Report Generation in a real-world academic publication management system.
