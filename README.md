@@ -101,7 +101,7 @@ To provide a centralized platform for storing, managing, and generating reports 
 ## Team Members
 
 * Vedika Khadde
-* Team Member
+* Nita Joshi
 
 ---
 
@@ -117,7 +117,7 @@ To provide a centralized platform for storing, managing, and generating reports 
 ![Faculty Management](screenshots/faculty.png)
 
 ### Download 
-![Faculty Management](screenshots/download.png)
+![Download Page](screenshots/download.png)
 
 ### Generated PDF Report
 ![PDF Report](screenshots/pdf-report.png)
